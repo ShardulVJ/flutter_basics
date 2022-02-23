@@ -5,6 +5,11 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text("AppBar"),
+      ),
+      drawer: Drawer(backgroundColor: Colors.blue
+      ),
       body:  Material(
         child: Center(
           child: Container(
